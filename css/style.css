@@ -435,7 +435,7 @@ main ul li{
         margin: 0 0 10px 10px;
     }
 
-    #HideImg{
+    .HideImg{
         height: 400px;
         padding: 5px;
         margin: 5px;
