@@ -144,7 +144,13 @@ h1, h2, h3{
 .grid img{
     width: 90%;
     display: block;
+    border: solid 5px #000000;
+    padding: 5px;
     margin:auto;
+}
+
+.grid div:nth-child(3n+2) img:hover {
+    opacity: 0.2;
 }
 
 .grid div:nth-child(3n+1)  {
@@ -157,11 +163,6 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+2)  {
     box-shadow: 4px 0 10px, -4px 0 10px;
-}
-
-.grid div:nth-of-type(2n) img{
-    opacity: 0.7;
-    background-color: black;
 }
 
 .flex_parent {
@@ -403,13 +404,6 @@ main ul li{
         padding: 5px 5px 5px 5px;
     }
 
-    .grid img{
-        width: 90%;
-        display: block;
-        margin:auto;
-    }
-
-
     .grid div:nth-child(3n+1)  {
         box-shadow: 4px 0 10px;
         }
@@ -443,11 +437,6 @@ main ul li{
         border: solid;
         border-radius: 8px;
         margin: 0 auto;
-    }
-
-    .grid div:nth-of-type(2n) img{
-        opacity: 0.7;
-        background-color: black;
     }
 
     main > img {
